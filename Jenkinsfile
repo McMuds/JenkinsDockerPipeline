@@ -20,8 +20,8 @@
         stage('Deploy') {
             steps {
                 sh '''
-                docker stop task1                
-                docker rm task1 
+                docker stop task1 || true               
+                docker rm task1 || true
                 docker run -d -p 80:5500 --name task1 mcmuds/task1jenkins
                 '''
             }
