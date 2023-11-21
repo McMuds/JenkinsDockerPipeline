@@ -9,7 +9,7 @@ spec:
   ports:
   - protocol: TCP
     port: 5500
-    targetPort: 5500
+    # targetPort: 5500
 ---
 apiVersion: v1
 kind: Pod
@@ -22,7 +22,7 @@ spec:
   - name: flask
     image: agray998/task1jenk # Dockerhub
     ports: 
-    - containerPort: 5500
+    # - containerPort: 5500
     env:
     - name: YOUR_NAME
       value: Claire
