@@ -9,7 +9,7 @@ spec:
   - name: nginx-vol
     configMap:
       name: nginx-config
-  container: 
+  containers: 
   - image: nginx:alpine
     name: nginx
     volumeMounts: 
