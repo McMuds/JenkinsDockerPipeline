@@ -20,7 +20,7 @@ metadata:
 spec: 
   containers: 
   - name: flask
-    image: stratcastor/duo-flask-app:latest # Dockerhub
+    image: agray998/task1jenk # Dockerhub
     ports: 
     - containerPort: 5500
     env:
