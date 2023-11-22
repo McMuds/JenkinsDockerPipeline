@@ -26,4 +26,4 @@ spec:
     # - containerPort: 5500
     env:
     - name: YOUR_NAME
-      value: Something Else
+      value: QA Stuff
