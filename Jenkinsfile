@@ -4,7 +4,8 @@
         stage('Build') {
             steps {
                 sh '''
-                docker build -t mcmuds/task1-app .
+                docker pull agray998/task1jenk
+                docker tag agray998/task1jenk mcmuds/task1-app
                 '''
             }
 
