@@ -12,7 +12,7 @@
         stage('Push') {
             steps {
                 sh '''
-                docker push agray998/task1jenk
+                docker push mcmuds/task1-flask-app
                 '''         
             }
 
