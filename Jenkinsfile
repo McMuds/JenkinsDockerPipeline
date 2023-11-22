@@ -4,7 +4,7 @@
         stage('Build') {
             steps {
                 sh '''
-                docker build -t mcmuds/task1-flask-app .
+                docker build -t agray998/task1jenk .
                 '''
             }
 
