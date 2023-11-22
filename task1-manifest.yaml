@@ -20,7 +20,7 @@ metadata:
 spec: 
   containers: 
   - name: flask
-    image: agray998/task1jenk # Dockerhub
+    image: mcmuds/task1-flask-app # Dockerhub
     ImagePullPolicy: Always
     ports: 
     # - containerPort: 5500
