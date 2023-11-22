@@ -21,6 +21,7 @@
             steps {
                 sh '''
                 kubectl apply -f .
+                kubectl get services
                 '''
             }
 

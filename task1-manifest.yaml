@@ -21,6 +21,7 @@ spec:
   containers: 
   - name: flask
     image: agray998/task1jenk # Dockerhub
+    ImagePullPolicy: Always
     ports: 
     # - containerPort: 5500
     env:
