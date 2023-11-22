@@ -4,8 +4,7 @@
         stage('Build') {
             steps {
                 sh '''
-                docker pull agray998/task1jenk
-                docker tag agray998/task1jenk mcmuds/task1-app
+                docker build -t mcmuds/task1-app .
                 '''
             }
 
@@ -22,7 +21,6 @@
             steps {
                 sh '''
                 kubectl apply -f .
-                sleep 60
                 kubectl get services
                 '''
             }
