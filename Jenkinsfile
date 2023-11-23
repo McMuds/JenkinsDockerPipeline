@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        YOUR_NAME = credentials("Your Name")
+        YOUR_NAME = credentials("YOUR_NAME")
     }
     stages {
         stage('Build') {
