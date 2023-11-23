@@ -27,7 +27,7 @@ spec:
     template:
       metadata: 
         labels:
-          app: task1-app
+          app: task1-app:v{{version}}
       spec: 
         containers: 
         - name: flask
